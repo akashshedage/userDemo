@@ -1,0 +1,16 @@
+<table class="table" >
+    <thead class="bg-success text-white">
+        <th>UserID</th>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Body</th>
+    </thead>
+    <tbody *ngFor="let user of users">
+            <tr>
+                <td  class="Ui"> {{ user.userId}}</td>
+                <td class="Ui">{{ user.id}}</td>
+                <td class="w">{{ user.body}}</td>
+                <td class="w">{{ user.title}}</td>
+            </tr>
+    </tbody>
+</table>
