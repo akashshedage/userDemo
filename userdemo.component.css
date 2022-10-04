@@ -1,0 +1,17 @@
+.w{
+    width: 400px;
+    text-align: center;
+}
+ td{
+    border: 2px solid rgb(50, 159, 81);
+}
+th{
+    
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.Ui{
+    width: 100px;
+}
